@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <fieldset style="width: 500px;">
+            <legend>
+                <h2>Registration Form</h2>
+            </legend>
+
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter First Name"><br><br>
+
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter Last Name"><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email Address"><br><br>
+
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label>Gender :</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other<br><br>
+
+            <label for="age">Age :</label>
+            <select id="age" name="age">
+                <option value="">--Select Age--</option>
+                <option value="10-20">10-20</option>
+                <option value="21-30">21-30</option>
+                <option value="31-40">31-40</option>
+                <option value="41+">41+</option>
+            </select><br><br>
+
+            <label>Preferences :</label>
+            <input type="checkbox" name="preference" value="acrylic"> Acrylic Painting
+            <input type="checkbox" name="preference" value="oil"> Oil Painting
+            <input type="checkbox" name="preference" value="watercolor"> Water Color Painting<br><br>
+
+            <label for="occupation">Occupation :</label>
+            <select id="occupation" name="occupation">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="artist">Artist</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="bio">Bio :</label><br>
+            <textarea id="bio" name="bio" rows="5" cols="50" placeholder="Share few lines about yourself..."></textarea><br><br>
+
+            <input type="reset" value="RESET">
+            <input type="submit" value="SUBMIT">
+        </fieldset>
+    </form>
+</body>
+
+</html>

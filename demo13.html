@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Layout</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Field 1</td>
+                <br><br>
+                <td><input type="text" name="field1" value="text1"></td>
+                <td>Field 2</td><br>
+                <td><input type="text" name="field2" value="text2"></td>
+            </tr>
+            <tr>
+                <td>Field 3</td><br>
+                <td colspan="3">
+                    <select name="field3">
+                        <option>Combo1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Field 4<br></td>
+                <td colspan="3"><input type="text" name="field4" value="text3" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td>Field 5</td>
+                <td colspan="3"><input type="text" name="field5" value="text4" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td>Field 6</td>
+                <td colspan="3">
+                    <textarea name="field6" rows="4" cols="40">TextArea1</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: center;">
+                    <input type="submit" value="OK">
+                    <input type="reset" value="CANCEL">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

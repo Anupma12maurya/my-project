@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Registration Form</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend><strong>General Details</strong></legend>
+            Name: <input type="text" name="name"><br><br> Email: <input type="email" name="email"><br><br> Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female<br><br> How did you hear about us:
+            <select name="referral">
+            <option value="search">Search Engine</option>
+            <option value="friend">Friend</option>
+            <option value="advertisement">Advertisement</option>
+        </select><br><br> Comments:
+
+            <br>
+            <textarea name="comments" rows="5" cols="40"></textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><strong>User Account Details</strong></legend>
+            Username: <input type="text" name="username"><br><br> Password: <input type="password" name="password"><br><br> Newsletter Subscriptions:
+            <input type="checkbox" name="subscription" value="articles"> PHP Articles
+            <input type="checkbox" name="subscription" value="news"> PHP News
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+</html>
